@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- These meta tags are both essential! -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>Food Map of New York City</title>
+  
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+
+  <!-- Load custom css AFTER Bootstrap -->
+  <link href="https://fonts.googleapis.com/css?family=Arvo:400,700" rel="stylesheet">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/style.css">  
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-md navbar-dark">
+    <a href="index.html">
+      <img src="images/appleLogo.png" alt="foods of New York City logo">
+    </a>
+    <a class="navbar-brand nav-link" href="index.html">The Foods of New York City</a>
+      
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+      </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="foods.html">Gallery of Foods</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="map.html">Map</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="mailing.html">Mailing List</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  
+     <div class="jumbotron jumbotron-fluid">
+           <div class="container">
+            <h2>Food Map of New York City</h2>
+            <p>Sources for foods iconic to New York City are numerous and ever-changing. It would be impossible to list them all. Here are some historic points of interest and best-known establishments. See what's in your neighborhood. Click on the pins for the addresses, phone numbers and websites of some wonderful restaurants and grocery sources in New York.</p>
+         </div>
+          </div>
+
+  <div id="map"></div>
+  
+  <script src="js/jquery-3.2.1.min.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/map.js"></script>
+  <script async defer 
+					src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBf8LFydSuY_jOgHPdkzFxovJRRTrUgve4&callback=initMap"></script>
+
+</body>
+
+</html>

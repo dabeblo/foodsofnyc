@@ -1,0 +1,295 @@
+.jumbotron, .jumbotron-fluid .jumbotron.jumbotron-fluid{
+    background: url("../images/absurdidad_@2X.png") repeat;
+}
+/* Background pattern from Subtle Patterns */
+
+
+.jumbotron.jumbotron-fluid {
+    margin-bottom: 0;
+    padding-top: 10%;
+    padding-bottom: 5%;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+	color: #fff;
+}
+
+.navbar-brand {
+    margin-left: -.5%;
+}
+/* Using !important */
+.nav-link:hover {
+	color: #b0e3e3!important;
+}
+
+body, html, .carousel, .carousel-inner, .carousel-item, .modal-header {
+	width: 100%;
+	height: 100%;
+	font-family: 'Arvo', 'Rockwell', 'Courier', serif;
+	color: #999494;
+    letter-spacing: .03em;
+}
+
+.navbar.navbar-expand-md {
+	background-color: #e2401b;
+}
+
+a.navbar-brand.nav {
+    padding-left: -10px;
+}
+
+h1, h2, h3 {
+	font-family: 'Arvo', 'Rockwell', 'Courier', serif;
+	font-weight: 400;
+}
+
+h2 {
+    margin-bottom: 2%;
+}
+
+p {
+	font-family: 'Arvo', 'Rockwell', 'Courier', serif;
+	font-weight: 300;
+    font-size: 1em;
+	color: #999494;
+}
+
+.lead {
+    padding-top: 5%;
+    color: #999494;
+    font-size: 1em;
+}
+
+.carousel-item p {
+    letter-spacing: .05em;
+	color: #fff;
+}
+
+.carousel-item .d-block {
+	border: 0px!important;
+}
+
+.btn, .btn-danger, .submit {
+    width: 140px;
+	background-color: #e2401b;
+	margin: 0 auto 0 auto;
+	border-radius: 16px;
+    border-color: #e2401b;
+}
+
+.text-center  {
+    margin-bottom: 500px;
+}
+
+
+.btn-danger:hover {
+    border-color: #e2401b;
+}
+
+.findout {
+    margin-bottom: 300px;
+}
+
+figcaption {
+    text-align: center;
+}
+
+modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+}
+
+.modal-content {
+    margin: auto;
+    display: block;
+    width: 100%;
+    width: 100%;
+    text-align: center;
+    padding: 5%;
+    max-width: 300%;
+}
+
+.modal-content p {
+    margin-top: 5%;
+    text-align: left;
+    font-size: 1.1em;
+}
+
+/*-------------------
+    HOVER IMAGE CSS
+--------------------*/
+.img-hover-text {
+  width: 100%;
+  margin: auto;
+  position: relative;
+  color: #fff;
+}
+
+.img-hover-text img {
+  width: 100%;
+  transition: .5s;
+}
+
+.img-hover-text figcaption {
+    position: absolute;
+    width: 100%;
+    bottom: 10%;
+    left: 0%;
+    padding: 10px;
+    box-sizing: border-box;
+    opacity: 0;
+    border-radius: 10px;
+    transition: .5s;
+}
+
+.img-hover-text:hover figcaption {
+  opacity: 1;
+}
+
+.img-hover-text:hover img {
+  filter: brightness(70%);
+}
+/*---------------------------
+    ENDS CSS FOR GALLERY HOVER
+------------------------------*/
+
+#map {
+	height: 100%;
+}
+
+/*--------------------------
+        CSS for MAILING LIST
+----------------------------*/
+.jumbotron.jumbotron-fluid.jumbotron-fluidXL {
+    padding-top: 3%;
+    padding-bottom: 15%;
+}
+
+.jumbotron-fluid img {
+    margin: 0 auto 5% auto;;
+    display: block;
+    width: 80%;
+}
+
+.mailingList {
+    margin: 25% auto -1% auto;
+    padding: 0 3% 0 5%;
+}
+
+.col-auto {
+    margin-top: 5%;
+}
+
+#userName {
+    margin-left: 5%;
+}
+/*---------------------------
+    ENDS CSS FOR MAILING LIST
+------------------------------*/
+
+
+/*-----------------------------
+       CSS for SOCIAL MEDIA
+_______________________________*/
+.card {
+    background: #fff;
+    border-radius: 0.2em;
+    box-sizing: border-box;
+    box-shadow: 0 2px 3px rgba(0,0,0,0.4);
+    position: relative;
+    margin: 50px auto 1200px auto;
+    padding: 30px;
+    text-align: center;
+    width: 40%;
+    max-width: calc(100% - 30px);
+}
+
+.card h1 {
+    font-weight: 400;
+    margin: 0 0 15px 0;
+}
+
+.clearfix:after,
+.card:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+p.label {
+    text-align: left;
+    color: #999494;
+}
+
+.social,
+.social-coloured {
+    position: relative;
+    float: left;
+    width: 100%;
+}
+
+.social a,
+.social-coloured a {
+    display: inline-block;
+    height: 48px;
+    width: 48px;
+    margin: 5px;
+    padding: 10px;
+    text-align: center;
+    -webkit-transition: background 0.3s;
+    transition: background 0.3s;
+}
+
+.social a svg,
+.social-coloured a svg {
+    height: 100%;
+    width: 100%;
+}
+
+.social a {
+    background: #e2401b;
+}
+
+.social a svg path,
+.social a svg polygon,
+.social a svg rect {
+    fill: #fff;
+}
+
+.social a:hover,
+.social a:focus {
+    background: #fff;
+    outline: none;
+}
+
+.social a:hover svg path,
+.social a:hover svg polygon,
+.social a:hover svg rect,
+.social a:focus svg path,
+.social a:focus svg polygon,
+.social a:focus svg rect {
+    fill: #b0e3e3;
+}
+/*---------------------------
+    ENDS CSS FOR SOCIAL MEDIA
+------------------------------*/
+
+/*-----------------------------
+       MEDIA QUERIES
+_______________________________*/
+@media (max-width: 500px) {
+  .navbar img, .navbar-expand-md img, .navbar-dark img {
+  display: none;
+  }
+}

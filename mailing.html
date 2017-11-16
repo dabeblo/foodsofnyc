@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- These meta tags are both essential! -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>Mailing List</title>
+  
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+
+  <!-- Load custom css AFTER Bootstrap -->
+  <link href="https://fonts.googleapis.com/css?family=Arvo:400,700" rel="stylesheet">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-md navbar-dark">
+    <a href="index.html">
+      <img src="images/appleLogo.png" alt="foods of New York City logo">
+    </a>
+    <a class="navbar-brand nav-link" href="index.html">The Foods of New York City</a>
+      
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+      </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="foods.html">Gallery of Foods</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="map.html">Map</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="mailing.html">Mailing List</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  
+        <div class="jumbotron jumbotron-fluid jumbotron-fluidXL">
+          <div class="container container-fluid"></div>
+           <div class="row">
+           
+            <div class="col-xl-4 col-lg-6 col-md-7 col-sm-7">
+                <img src="images/coffeeCup.png">
+            </div><!--/.col-lg-5-->
+            <div class="col-xl-4 col-lg-5 col-md-4 col-sm-4">
+                <p class="mailingList">For more information about the foods of New York, please join our mailing list.</p>
+                <form id="userName">
+                   <div class="form-row">
+                        <div class="col-auto">
+                            <label id="firstName" class="sr-only" for="inlineFormInput">first name</label>
+                            <input type="text" class="form-control mb-2 mb-sm-0" id="firstName" placeholder="first name">
+                        </div><!-- /.col-auto-->
+                        <div class="col-auto">
+                            <label id="lastName" class="sr-only" for="inlineFormInput">last name</label>
+                            <input type="text" class="form-control mb-2 mb-sm-0" id="lastName" placeholder="last name">
+                        </div><!-- /.col-auto-->
+                        <div class="col-auto">
+                            <label class="sr-only" for="inlineFormInput">email</label>
+                            <input type="text" class="form-control mb-2 mb-sm-0" id="emailAddress" placeholder="email address">  
+                        </div><!-- /.col-auto-->
+                        <div class="col-auto">
+                            <button type="submit" class="btn btn-danger" data-toggle="modal" data-target="#exampleModal">Submit</button>
+                        </div><!-- /.col-auto--> 
+                          
+                    </div><!-- /.form-row-->
+                    
+            <!-- Modal -->
+                <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h3 class="modal-title" id="exampleModalLabel">Thank you!</h3>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                          <span aria-hidden="true">&times;</span>
+                        </button>
+                            </div>
+                            <div class="modal-body">
+                                <p id="personalizedThanks"></p>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                            </div><!-- /.modal-footer -->
+                        </div><!-- /.modal-content -->
+                    </div><!-- /.modal-dialogue -->
+                </div><!-- /.modal-fade -->
+            </form>  
+            </div><!--/.col-lg-6-->
+            <div class="col-xl-4 col-lg-1 col-md-1 col-sm-1"></div>
+            
+            
+         <div class="card">   
+                            <div class="social"></div>
+                            <div class="clearfix"></div>
+                        </div><! -- closes .card-->             
+            
+        
+            
+    </div><!--container container-fluid--> 
+    </div><! -- closes .jumbotron .jumbotron-fluid-->                      
+                               
+  <!-- Scripts should be loaded at the bottom of the body and must go in this order -->
+  <script src="js/jquery-3.2.1.min.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/script.js"></script>
+  <script src="js/social.js"></script>
+</body>
+
+</html>
