@@ -26,7 +26,7 @@ function initMap() {
     
 	
 	var knish = {
-		info: '<strong>Yonah Schimmel</strong><br>\ knishes<br>\
+		info: '<strong>Yonah Schimmel</strong><br>\ knishes, Cel-Ray soda<br>\
 					137 East Houston St<br> New York, NY 10002<br>phone: (212) 477-2858<br>\
 					<a href="http://knishery.com">Website</a>',
 		lat: 40.723120,
@@ -178,6 +178,70 @@ function initMap() {
 		long: -73.909700 
     }
     
+    var joes = {
+        info: '<strong>Joe and Pat\'s Pizzeria & Restaurant</strong><br>\ pizza<br>\
+                    1758 Victory Blvd <br>\ Staten Island, NY 10314<br>phone: (718) 981-0887<br>\
+                    <a href="http://www.joeandpatsny.com/">Website</a>',
+        lat: 40.612941,
+		long: -74.122097 
+    }
+    
+    var ansel = {
+        info: '<strong>Dominique Ansel Bakery</strong><br>\ cronuts<br>\
+                    189 Spring St <br>\ New York, NY 10012<br>phone: (212) 219-2773<br>\
+                    <a href="http://www.dominiqueansel.com//">Website</a>',
+        lat: 40.725236,
+		long: -74.002891 
+    }
+    
+    var pickleguys = {
+        info: '<strong>The Pickle Guys</strong><br>\
+                    357 Grand St <br>\ New York, NY 10002<br>phone: (212) 656-9739<br>\
+                    <a href="http://www.pickleguys.com//">Website</a>',
+        lat: 40.716437,
+		long: -73.989062 
+    }
+    
+    var lombardis = {
+        info: '<strong>Lombardi\'s Pizza</strong><br>\
+					32 Spring St<br>\ New York, NY 10012<br>phone: (212) 941-7994<br>\
+					<a href="http://www.firstpizza.com">Website</a>',
+		lat: 40.721533,
+		long: -73.995634   
+    };
+    
+    var johns = {
+        info: '<strong>John\'s Pizza</strong><br>\
+					278 Bleecker St<br>\ New York, NY 10014<br>phone: (212) 243-1680<br>\
+					<a href="http://www.johnsbrickovenpizza.com">Website</a>',
+		lat: 40.731619,
+		long: -74.003447   
+    };
+    
+    var russ = {
+        info: '<strong>Russ & Daughters</strong><br>\ bagels, Cel-Ray soda<br>\
+					179 E Houston St<br>\ New York, NY 10022<br>phone: (212) 475-4880<br>\
+					<a href="http://www.russanddaughters.com/">Website</a>',
+		lat: 40.722505,
+		long: -73.988324   
+    };
+    
+    var glasers = {
+        info: '<strong>Glaser\'s Bake Shop</strong><br>\ black & white cookies<br>\
+					1670 1st Ave<br>\ New York, NY 10128<br>phone: (212) 289-2562<br>\
+					<a href="http://www.glasersbakeshop.com/">Website</a>',
+		lat: 40.777610,
+		long: -73.948510   
+    };
+    
+    var gemspa = {
+        info: '<strong>Gem Spa</strong><br>\ egg creams<br>\
+					131 2nd Ave St<br>\ New York, NY 10003<br>phone: (212) 995-1866<br>\
+                    ',
+		lat: 40.728523,
+		long: -73.988016   
+    };
+    
 	var locations = [
       [knish.info, knish.lat, knish.long, 0],
       [patsys.info, patsys.lat, patsys.long, 1],
@@ -198,6 +262,14 @@ function initMap() {
       [eataly.info, eataly.lat, eataly.long, 16],
       [redrooster.info, redrooster.lat, redrooster.long, 17],
       [liebmans.info, liebmans.lat, liebmans.long, 18],
+      [joes.info, joes.lat, joes.long, 19],
+      [ansel.info, ansel.lat, ansel.long, 20],
+      [pickleguys.info, pickleguys.lat, pickleguys.long, 21],
+      [lombardis.info, lombardis.lat, lombardis.long, 22],
+      [johns.info, johns.lat, johns.long, 23],
+      [russ.info, russ.lat, russ.long, 24],
+      [glasers.info, glasers.lat, glasers.long, 25],
+      [gemspa.info, gemspa.lat, gemspa.long, 26],
     ];
 
 //	var map = new google.maps.Map(document.getElementById('map'), {
@@ -229,6 +301,3 @@ function initMap() {
 		})(marker, i));
 	}
 }
-
-
-
